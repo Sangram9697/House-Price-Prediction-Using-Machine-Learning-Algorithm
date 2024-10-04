@@ -1,0 +1,30 @@
+Output from different Models
+
+1. Decision Tree:
+    Mean:  4.189504502474483
+    Standard deviation:  0.848096620323756
+
+2. Linear Regression:
+    Mean:  4.221894675406022
+    Standard deviation:  0.7520304927151625
+
+3. Random Forest Regression
+    Mean:  3.494650261111624
+    Standard deviation:  0.762041223886678
+
+Based on the mean and standard deviation of the model outputs (Root Mean Squared Error - RMSE), the Random Forest Regression model is the most accurate among the three:
+
+1. Random Forest Regression:
+Mean: 3.49 (lowest RMSE, indicating the best performance).
+Standard Deviation: 0.76 (shows moderate variability, but still lower than Decision Tree).
+
+2. Decision Tree:
+Mean: 4.19 (higher RMSE compared to Random Forest, indicating worse performance).
+Standard Deviation: 0.85 (higher variability).
+
+3. Linear Regression:
+Mean: 4.22 (similar to Decision Tree, slightly worse performance than Decision Tree).
+Standard Deviation: 0.75 (lowest variability but still worse performance overall).
+
+Conclusion:
+Random Forest Regression gives the most accurate output as it has the lowest RMSE mean (3.49), meaning its predictions are closer to the actual values on average.Therefore usage of Random Forest Regressor is a better choice.
